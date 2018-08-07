@@ -1,6 +1,78 @@
 
-iframe {
-  height: 600px;
-  width: 500px;
-  margin-left: 5;
+
+h1 {
+  font-family: 'Bowlby One SC',cursive;
+  font-size: 80px;
+
+}
+
+p {
+  font-family: 'Montserrat',sans-serif;
+  font-size: 20px;
+}
+
+h2 {
+  font-family:'Gilda Display', sans-serif;
+  margin-left: 130px;
+}
+
+h3 {
+    margin-left: 200px;
+}
+
+/* The font style for the buttons on the drop down menu */
+.dropbtn {
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 60px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {background-color: #ddd;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+.button1 {
+  display: inline-block;
+  /* padding: 15px 25px;
+  font-size: 24px; */
+  cursor: pointer;
+  text-align: center;
+  /* text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50; */
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px gray;
+  font-family: 'Gilda Display', serif;
+  font-size: 15px;
+  float: left;
+  position: relative;
+  padding: 0px 10px;
+  /* border-radius: 10px; */
+  width: 150px;
+  height: 50px;
+  margin: -25px auto 20px auto;
+  position:static;
+  margin-left: 65px;
+  margin-right: 10px;
+  vertical-align: top;
 }
